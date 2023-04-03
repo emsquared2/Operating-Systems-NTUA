@@ -3,12 +3,19 @@ Solutions to the assignments of the course "Operating Systems" of the School of 
 
 # **Lab Exercises**
 
-## **Lab 1:**
+## **Lab 1**
 
 In this lab, we covered the following topics:
 - An introduction to the Linux environment and a brief overview of the file system. 
 - Creating and linking object files. 
-- Using read and write system calls to merge two files into a third.
+- Merging two files into a third using read and write system calls.
+
+## **Lab 2**
+In this lab on process management and communication, we covered the following topics:
+- Creating a process tree using the fork system call.
+- Creating an arbitrary process tree based on an input file description.
+- Interprocess communication using signals (SIGSTOP/SIGCONT) to display the messages of the arbitrary process tree in depth (DFS).
+- Parallel computation of a numerical expression presented in the form of an arbitrary process tree. The expression consists of addition and multiplication operations at the nodes and numerical values at the leaves. To implement this, we used UNIX pipes for interprocess communication.
 
 # **Contributors**
 - [@emsquared2](https://github.com/emsquared2)
