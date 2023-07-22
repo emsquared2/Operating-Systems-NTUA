@@ -23,6 +23,13 @@ In this lab we used common synchronization mechanisms to solve synchronization p
 - Parallel calculation of the Mandelbrot set by progressively increasing number of threads and synchronizing them using semaphores.
 - Implementing a synchronization scheme to solve a synchronization problem.
 
+## **Lab 4**
+This lab was divided into two parts. In the first part, we explored system calls and basic mechanisms for virtual memory management. In the second part, we modified the Mandelbrot set calculation program from the previous lab (lab3) to use processes instead of threads (pthreads) for parallel calculation of the set. This task was implemented with and without semaphores. The lab covered the following topics:
+- System calls and basic mechanisms of the OS for virtual memory management.
+- Semaphores over shared memory. 
+- Virtual memory utilization to share resources between processes.
+- Implementation of an interprocess synchronization scheme.
+
 # **Contributors**
 - [@emsquared2](https://github.com/emsquared2)
 - [@johnskop7](https://github.com/johnskop7)
